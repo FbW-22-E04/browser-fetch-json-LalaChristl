@@ -66,3 +66,8 @@ const recipes = {
     }
     ],
 };
+
+const recipesToString = JSON.stringify(recipes)
+export default recipesToString
+
+// console.log(recipesToString);
